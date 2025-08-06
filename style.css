@@ -1,1 +1,65 @@
-
+body {
+    background-color: lightgray;
+}
+div{
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+}
+#button{
+    height: 300px;
+    width: 450px;
+    font-size: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: auto;
+    background-size: cover;
+    border: gray;
+    border-radius: 5px;
+    color: darkgray;
+    border-style: solid;
+}
+#button:hover {
+  cursor: pointer;
+}
+#header{
+    font-size: 100px;
+    text-align: center;
+    margin-top: 50px;
+}
+#upg1{
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    border-radius: 7.5px;
+    border: gray;
+    border-color: black;
+    border-style: solid;
+    background-color: red;
+    cursor: pointer;
+}
+#upg2{
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    border-radius: 7.5px;
+    border: gray;
+    border-color: black;
+    border-style: solid;
+    background-color: orange;
+    cursor: pointer;
+    margin-top: 5px;
+}
+#upg3{
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    border-radius: 7.5px;
+    border: gray;
+    border-color: black;
+    border-style: solid;
+    background-color: yellow;
+    cursor: pointer;
+    margin-top: 5px;
+}
