@@ -1,65 +1,34 @@
-body {
-    background-color: lightgray;
+body{
+    background-color: lightslategray;
 }
-div{
-    width: 200px;
-    height: 200px;
-    margin-left: auto;
+#links{
+    width: auto;
+    height: 30px;
+    border-bottom: 5px solid grey;
 }
-#button{
-    height: 300px;
-    width: 450px;
-    font-size: 150px;
+.l1{
+    color: darkgrey;
+    font-size: 20px;
+    text-decoration: none;
+}
+#h1{
+    color: darkgrey;
+    font-size: 40px;
+    text-align: center;
+}
+#p1{
+    color: darkgrey;
+    font-size: 20px;
+    text-align: center;
+}
+#niche_apple{
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    display: block;
-    margin-bottom: auto;
-    background-size: cover;
+    width: 20%;
+    height: auto;
     border: gray;
     border-radius: 5px;
-    color: darkgray;
     border-style: solid;
-}
-#button:hover {
-  cursor: pointer;
-}
-#header{
-    font-size: 100px;
-    text-align: center;
-    margin-top: 50px;
-}
-#upg1{
-    height: 50px;
-    width: 200px;
-    font-size: 20px;
-    border-radius: 7.5px;
-    border: gray;
-    border-color: black;
-    border-style: solid;
-    background-color: red;
     cursor: pointer;
-}
-#upg2{
-    height: 50px;
-    width: 200px;
-    font-size: 20px;
-    border-radius: 7.5px;
-    border: gray;
-    border-color: black;
-    border-style: solid;
-    background-color: orange;
-    cursor: pointer;
-    margin-top: 5px;
-}
-#upg3{
-    height: 50px;
-    width: 200px;
-    font-size: 20px;
-    border-radius: 7.5px;
-    border: gray;
-    border-color: black;
-    border-style: solid;
-    background-color: yellow;
-    cursor: pointer;
-    margin-top: 5px;
 }
