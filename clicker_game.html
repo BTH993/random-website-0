@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="game.css">
+    <title>Clicker Game</title>
+</head>
+<body>
+   <button id="b1" style="width: 200px; height: 50px; background-color: darkgrey; font-size: 40px;">back</button>
+    <script>
+        document.getElementById("b1").onclick = function() {
+            location.href = "index.html";
+        };
+    </script>
+    <button id="button">Click</button>
+    <div>
+     <button id="upg1">1+ Clicks per click 
+        cost: 5
+     </button>
+     <button id="upg2">2x Clicks per click 
+        cost: 100
+     </button>
+     <button id="upg3">Auto Clicker
+        cost: 20
+     </button>
+     <button id="upg4">speed up auto clicker
+        cost: 250
+       </button>
+       <button id="upg5">
+         3x Clicks per click
+         cost: 5000
+       </button>
+       <button id="upg6">
+         auto clicker speed = 0.1 second
+         cost: 9999
+       </button>
+       <button id="rebirth">
+         rebirth
+         cost: 99999
+       </button>
+    </div>
+<audio src="Audio/NoMore.mp3" controls id="A"></audio>
+    <h1 id="header">0</h1>
+    <script src="game.js"></script>
+</body>
+</html>
