@@ -1,1 +1,1 @@
-i make new, and i try better
+how do i kill it
